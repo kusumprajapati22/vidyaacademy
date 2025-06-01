@@ -185,7 +185,7 @@
     <!-- About End -->
 
 
-    <!-- Registration Start -->
+  <!-- Registration Start -->
     <div class="container-fluid bg-registration py-5" style="margin: 90px 0;">
         <div class="container py-5">
             <div class="row align-items-center">
@@ -215,21 +215,34 @@
                             <h1 class="m-0">Join Now</h1>
                         </div>
                         <div class="card-body rounded-bottom bg-primary p-5">
-                            <form>
+                            <form action="/join_now.php" method="POST">
                                 <div class="form-group">
-                                    <input type="text" class="form-control border-0 p-4" placeholder="Your name"
+                                    <input type="text" id="name" class="form-control border-0 p-4" placeholder="Your Name"
                                         required="required" />
                                 </div>
                                 <div class="form-group">
-                                    <input type="email" class="form-control border-0 p-4" placeholder="Your email"
+                                    <input type="email" id="email" class="form-control border-0 p-4" placeholder="Your Email"
                                         required="required" />
                                 </div>
                                 <div class="form-group">
-                                    <select class="custom-select border-0 px-4" style="height: 47px;">
+                                    <select class="custom-select border-0 px-4" id="class" style="height: 47px;">
+                                        <option selected>Select a class</option>
+                                        <option value="1">Class-6th</option>
+                                        <option value="2">Class-7th</option>
+                                        <option value="3">Class-8th</option>
+                                        <option value="3">Class-9th</option>
+                                        <option value="3">Class-10th</option>
+                                        <option value="3">Class-11th</option>
+                                        <option value="3">Class-12th</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <select class="custom-select border-0 px-4" id="course" style="height: 47px;">
                                         <option selected>Select a course</option>
-                                        <option value="1">Course 1</option>
-                                        <option value="2">Course 1</option>
-                                        <option value="3">Course 1</option>
+                                        <option value="1">Maths</option>
+                                        <option value="2">Science</option>
+                                        <option value="3">S.S.T</option>
+                                        <option value="4">Eco</option>
                                     </select>
                                 </div>
                                 <div>
