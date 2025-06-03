@@ -9965,9 +9965,10 @@ table2 {
 /*   width: 100%; */
   color:black;
 }
-table1{
+table3{
   display:flex;
   justify-content: center;
+  padding-left:60px;
 }
 td, th {
   border: 1px solid #dddddd;
