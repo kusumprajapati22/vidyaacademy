@@ -9965,11 +9965,6 @@ table {
 /*   width: 100%; */
   color:black;
 }
-table2{
-  width:70%;
-  display: flex;
-  justify-content: center;
-}
 td, th {
   border: 1px solid #dddddd;
   text-align: left;
