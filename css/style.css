@@ -9962,9 +9962,17 @@ h6,
 table {
   font-family: arial, sans-serif;
   border-collapse: collapse;
-  width: 80%;
+  width: 100%;
   color:black;
   justify-content: center;
+}
+
+@media(max-600px){
+  table {
+ 
+  width: 80%;
+ 
+}
 }
 
 td, th {
