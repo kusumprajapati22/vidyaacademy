@@ -9962,7 +9962,7 @@ h6,
 table {
   font-family: arial, sans-serif;
   border-collapse: collapse;
-  width: 60%;
+  width: 100%;
   color:black;
   justify-content: center;
 }
@@ -9970,7 +9970,7 @@ table {
 @media(max-width:600px){
   table {
  
-  width: 100%;
+  width: 60%;
  
 }
 }
