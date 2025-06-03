@@ -9966,6 +9966,7 @@ table2 {
   color:black;
 }
 table1{
+  display:flex;
   justify-content: center;
 }
 td, th {
@@ -9980,7 +9981,7 @@ td, th {
 }
   @media(max-width:1024px;){
       table2{
-        width:60%;
+        width:80%;
       }
   }
   
