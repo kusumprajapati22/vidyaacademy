@@ -9966,13 +9966,12 @@ table2 {
   color:black;
 }
 table111{
-  display:flex;
-  justify-content:center;
+  width: 100%;
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
 }
 
-   table3{
-        width:90%;
-      }
 td, th {
   border: 1px solid #dddddd;
   text-align: left;
@@ -9980,7 +9979,7 @@ td, th {
 }
 @media(max-width:600px;){
       table3{
-        width:95%;
+        width:100%;
       }
 }
   @media(max-width:1024px;){
