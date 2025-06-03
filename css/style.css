@@ -9965,10 +9965,9 @@ table2 {
 /*   width: 100%; */
   color:black;
 }
-table3{
+table111{
   display:flex;
-  justify-content: center;
-  padding-left:60px;
+  justify-content:center;
 }
 td, th {
   border: 1px solid #dddddd;
@@ -9976,12 +9975,12 @@ td, th {
   padding: 8px;
 }
 @media(max-width:600px;){
-      table2{
+      table3{
         width:100%;
       }
 }
   @media(max-width:1024px;){
-      table2{
+      table3{
         width:80%;
       }
   }
