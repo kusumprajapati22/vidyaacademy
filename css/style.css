@@ -9964,7 +9964,6 @@ table {
   border-collapse: collapse;
   width: 100%;
   color:black;
-  justify-content: center;
 }
 /* 
 @media(max-width:600px){
@@ -9975,6 +9974,9 @@ table {
 }
 }
  */
+table1{
+  justify-content: center;
+}
 td, th {
   border: 1px solid #dddddd;
   text-align: left;
