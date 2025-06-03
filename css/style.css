@@ -9959,31 +9959,32 @@ h6,
 
 /* Table Section */
 
-table2 {
+table {
   font-family: arial, sans-serif;
   border-collapse: collapse;
 /*   width: 100%; */
   color:black;
 }
-table111{
+
+/* table{
   width: 100%;
     margin-left: auto;
     display: flex;
     justify-content: center;
 }
-
+ */
 td, th {
   border: 1px solid #dddddd;
   text-align: left;
   padding: 8px;
 }
 @media(max-width:600px;){
-      table3{
+      table2{
         width:100%;
       }
 }
   @media(max-width:1024px;){
-      table3{
+      table2{
         width:80%;
       }
   }
