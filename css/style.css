@@ -9969,6 +9969,10 @@ table111{
   display:flex;
   justify-content:center;
 }
+
+   table3{
+        width:90%;
+      }
 td, th {
   border: 1px solid #dddddd;
   text-align: left;
@@ -9976,7 +9980,7 @@ td, th {
 }
 @media(max-width:600px;){
       table3{
-        width:100%;
+        width:95%;
       }
 }
   @media(max-width:1024px;){
