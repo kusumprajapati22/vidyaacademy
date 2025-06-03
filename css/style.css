@@ -9967,7 +9967,7 @@ table {
   justify-content: center;
 }
 
-@media(max-600px){
+@media(max-width:600px){
   table {
  
   width: 100%;
