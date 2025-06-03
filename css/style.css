@@ -9966,7 +9966,7 @@ table {
   color:black;
   justify-content: center;
 }
-
+/* 
 @media(max-width:600px){
   table {
  
@@ -9974,7 +9974,7 @@ table {
  
 }
 }
-
+ */
 td, th {
   border: 1px solid #dddddd;
   text-align: left;
