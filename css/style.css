@@ -9965,14 +9965,11 @@ table {
 /*   width: 100%; */
   color:black;
 }
-
-/* table{
-  width: 100%;
-    margin-left: auto;
-    display: flex;
-    justify-content: center;
+table2{
+  width:70%;
+  display: flex;
+  justify-content: center;
 }
- */
 td, th {
   border: 1px solid #dddddd;
   text-align: left;
