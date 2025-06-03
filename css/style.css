@@ -9959,21 +9959,12 @@ h6,
 
 /* Table Section */
 
-table {
+table2 {
   font-family: arial, sans-serif;
   border-collapse: collapse;
-  width: 100%;
+/*   width: 100%; */
   color:black;
 }
-/* 
-@media(max-width:600px){
-  table {
- 
-  width: 60%;
- 
-}
-}
- */
 table1{
   justify-content: center;
 }
@@ -9982,3 +9973,14 @@ td, th {
   text-align: left;
   padding: 8px;
 }
+@media(max-width:600px;){
+      table2{
+        width:100%;
+      }
+}
+  @media(max-width:1024px;){
+      table2{
+        width:60%;
+      }
+  }
+  
