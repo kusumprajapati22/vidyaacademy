@@ -9964,7 +9964,7 @@ table {
   font-family: arial, sans-serif;
   border-collapse: collapse;
   color:#000000;
-  width:80%;
+  width: 60%;
   margin-left: 20%;
 }
 
@@ -9979,8 +9979,8 @@ td, th {
     width:100%;
   }
 }
-@media (max-width:1024px;){
+/* @media (max-width:1024px;){
   table{
     width:80%;
   }
-}
+} */
