@@ -9959,35 +9959,13 @@ h6,
 
 /* Table Section */
 
-/* table {
-  font-family: arial, sans-serif;
-  border-collapse: collapse;
-  width: 100%;
-  color:black;
-}
-td, th {
-  border: 1px solid #dddddd;
-  text-align: left;
-  padding: 8px;
-}
-@media(max-width:600px;){
-      table2{
-        width:100%;
-      }
-}
-  @media(max-width:1024px;){
-      table2{
-        width:80%;
-      }
-  }
-   */
-
 table {
   font-family: arial, sans-serif;
   border-collapse: collapse;
   width: 100%;
   display:flex;
   justify-content:center;
+  color:#000000;
 }
 
 td, th {
