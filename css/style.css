@@ -9960,22 +9960,11 @@ h6,
 
 /* Table Section */
 
-/* table {
-  font-family: arial, sans-serif;
-  border-collapse: collapse;
-  color:#000000;
-  margin-left: 20%;
-}
-
-td, th {
-  border: 1px solid #dddddd;
-  text-align: left;
-  padding: 8px;
-} */
 table {
   font-family: arial, sans-serif;
   border-collapse: collapse;
   color: #000000;
+  margin-left: 20%;
   margin-left: 20%;
   width: 60%;
 }
