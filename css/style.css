@@ -9963,9 +9963,6 @@ h6,
 table {
   font-family: arial, sans-serif;
   border-collapse: collapse;
-/*   width: 100%; */
-/*   display:flex;
-  justify-content:center; */
   color:#000000;
 }
 
@@ -9982,6 +9979,6 @@ td, th {
 }
 @media (max-width:1024px;){
   table{
-    width:80%;
+    width:100%;
   }
 }
