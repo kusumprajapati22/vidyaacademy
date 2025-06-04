@@ -9960,7 +9960,7 @@ h6,
 
 /* Table Section */
 
-table {
+/* table {
   font-family: arial, sans-serif;
   border-collapse: collapse;
   color:#000000;
@@ -9971,11 +9971,44 @@ td, th {
   border: 1px solid #dddddd;
   text-align: left;
   padding: 8px;
+} */
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  color: #000000;
+  margin-left: 20%;
+  width: 60%;
 }
 
+/* Table cell and header styles */
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+/* Media Query: For screens up to 768px wide */
 @media (max-width: 768px) {
-  body {
-    background-color: lightgray;
-    font-size: 16px;
+  table {
+    width: 90%;
+    margin-left: 5%;
+    font-size: 14px;
+  }
+
+  td, th {
+    padding: 6px;
+  }
+}
+
+/* Media Query: For very small screens up to 480px */
+@media (max-width: 480px) {
+  table {
+    width: 100%;
+    margin-left: 0;
+    font-size: 12px;
+  }
+
+  td, th {
+    padding: 4px;
   }
 }
