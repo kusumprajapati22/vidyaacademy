@@ -9959,10 +9959,10 @@ h6,
 
 /* Table Section */
 
-table {
+/* table {
   font-family: arial, sans-serif;
   border-collapse: collapse;
-/*   width: 100%; */
+  width: 100%;
   color:black;
 }
 td, th {
@@ -9980,4 +9980,18 @@ td, th {
         width:80%;
       }
   }
-  
+   */
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  display:flex;
+  justify-content:center;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
