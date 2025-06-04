@@ -19,7 +19,8 @@
   --white: #fff;
   --gray: #6c757d;
   --gray-dark: #343a40;
-  --primary: #FF6600;
+/*   --primary: #FF6600; */
+  --primary: #d869d2;
   --secondary: #F2F1F8;
   --success: #28a745;
   --info: #17a2b8;
@@ -9962,7 +9963,7 @@ h6,
 table {
   font-family: arial, sans-serif;
   border-collapse: collapse;
-  width: 100%;
+/*   width: 100%; */
 /*   display:flex;
   justify-content:center; */
   color:#000000;
