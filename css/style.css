@@ -9963,8 +9963,8 @@ table {
   font-family: arial, sans-serif;
   border-collapse: collapse;
   width: 100%;
-  display:flex;
-  justify-content:center;
+/*   display:flex;
+  justify-content:center; */
   color:#000000;
 }
 
@@ -9972,4 +9972,15 @@ td, th {
   border: 1px solid #dddddd;
   text-align: left;
   padding: 8px;
+}
+
+@media (max-width:600px;){
+  table{
+    width:100%;
+  }
+}
+@media (max-width:1024px;){
+  table{
+    width:80%;
+  }
 }
