@@ -9981,6 +9981,7 @@ td, th {
   table {
     width: 90%;
     margin-left: 5%;
+    margin-top: 4%;
     font-size: 14px;
   }
 
@@ -9994,6 +9995,7 @@ td, th {
   table {
     width: 100%;
     margin-left: 0;
+    margin-top:4% ;
     font-size: 12px;
   }
 
